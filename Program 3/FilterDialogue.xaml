@@ -1,0 +1,22 @@
+﻿<Window x:Class="Program_3.FilterDialogue"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Program_3"
+        mc:Ignorable="d"
+        Title="FilterDialogue" SizeToContent="WidthAndHeight">
+    
+    <StackPanel Orientation="Vertical" VerticalAlignment="Center">
+        <Label Content="Please choose which example filter you would like to use:"/>
+        <ComboBox SelectionChanged="ComboBox_SelectionChanged" Name="CbxFilter">
+            <ComboBoxItem Content="Only print strings with numbers."/>
+            <ComboBoxItem Content="Only print strings that have the letter 's' in them."/>
+        </ComboBox>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+            <Button Content=" OK " Margin="10,10,10,10" Click="Button_Click"/>
+            <Button Content=" Cancel " Margin="10,10,10,10" Click="Button_Click_1"/>
+        </StackPanel>
+    </StackPanel>
+    
+</Window>

@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Program_3.StreamOutput">
+    <Position X="1.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAAAgAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>StreamOutput.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Program_3.StreamDecorator">
+    <Position X="6" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>StreamDecorator.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Program_3.LineDecorator">
+    <Position X="8.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAAAAAAAAAAAIAAAAAAAAEAAAA=</HashCode>
+      <FileName>LineDecorator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Program_3.NumberDecorator">
+    <Position X="3.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAAAAAAAAAAAIAAAACAAAEAAAA=</HashCode>
+      <FileName>NumberDecorator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Program_3.FilterDecorator">
+    <Position X="5.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAAAAAAAAAAAIAAAAAAABEAAAA=</HashCode>
+      <FileName>FilterDecorator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Program_3.TeeDecorator">
+    <Position X="7" Y="3.75" Width="1.5" />
+    <InheritanceLine Type="Program_3.StreamDecorator" FixedToPoint="true">
+      <Path>
+        <Point X="6.75" Y="3.296" />
+        <Point X="6.75" Y="3.51" />
+        <Point X="7.625" Y="3.51" />
+        <Point X="7.625" Y="3.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAAAAAAABAAAIAAAAAAAAEAAAA=</HashCode>
+      <FileName>TeeDecorator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Program_3.IOutput">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>IOutput.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
